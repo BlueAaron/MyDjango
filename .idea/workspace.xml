@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d086418-3450-4c47-80bd-c903f87dbb8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AppPure/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppPure/models.py" afterPath="$PROJECT_DIR$/AppPure/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pure/urls.py" afterPath="$PROJECT_DIR$/Pure/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppPure/views.py" afterPath="$PROJECT_DIR$/AppPure/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pure.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/urls.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1447856137437" ignored="false" />
-    <file path="/views.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1447856566716" ignored="false" />
+    <file path="/urls.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448030196392" ignored="false" />
+    <file path="/views.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448030256898" ignored="false" />
     <file path="/temp.html" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1447856098498" ignored="false" />
-    <file path="/models.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1447857106818" ignored="false" />
+    <file path="/models.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448006416209" ignored="false" />
     <file path="/admin.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1447858408026" ignored="false" />
-    <file path="/Dummy.txt" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448005000497" ignored="false" />
+    <file path="/Dummy.txt" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448197910020" ignored="false" />
+    <file path="/forms.py" changelist="1d086418-3450-4c47-80bd-c903f87dbb8d" time="1448006365549" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppPure/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="34" column="16" selection-start="854" selection-end="854" vertical-scroll-proportion="0.3267857">
+              <folding>
+                <element signature="e#14#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +57,16 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppPure/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="46" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="2" column="26" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppPure/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="55" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="temp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppPure/templates/AppPure/temp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="8" column="7" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +124,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pure/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+            <state line="20" column="40" selection-start="787" selection-end="792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,19 +150,21 @@
       <list>
         <option value="$PROJECT_DIR$/Pure/settings.py" />
         <option value="$PROJECT_DIR$/AppPure/templates/temp.html" />
+        <option value="$PROJECT_DIR$/AppPure/admin.py" />
+        <option value="$PROJECT_DIR$/AppPure/templates/AppPure/temp.html" />
+        <option value="$PROJECT_DIR$/AppPure/form.py" />
+        <option value="$PROJECT_DIR$/AppPure/forms.py" />
+        <option value="$PROJECT_DIR$/AppPure/models.py" />
         <option value="$PROJECT_DIR$/Pure/urls.py" />
         <option value="$PROJECT_DIR$/AppPure/views.py" />
-        <option value="$PROJECT_DIR$/AppPure/admin.py" />
-        <option value="$PROJECT_DIR$/AppPure/models.py" />
-        <option value="$PROJECT_DIR$/AppPure/templates/AppPure/temp.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="10" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -174,6 +192,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AppPure" />
+              <option name="myItemId" value="Pure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,30 +238,21 @@
               <option name="myItemId" value="AppPure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppPure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -273,27 +283,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="Pure" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,6 +302,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="Pure" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -353,9 +363,9 @@
       <module name="Pure" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="1234" />
-      <option name="host" value="" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:1234/" />
+      <option name="browserUrl" value="http://0.0.0.0:1234/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -401,7 +411,11 @@
       <created>1447865577192</created>
       <updated>1447865577192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改">
+      <created>1448005182053</created>
+      <updated>1448005182053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -425,18 +439,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="10" width="1346" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25778815" sideWeight="0.67075306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25454545" sideWeight="0.67972744" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32027256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,7 +500,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -501,22 +515,18 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="第一次上传" />
     <MESSAGE value="第二次修改" />
+    <MESSAGE value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pure/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppPure/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#14#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,27 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pure/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppPure/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppPure/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="30" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
@@ -638,8 +627,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppPure/templates/AppPure/temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="8" column="7" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPure/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPure/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="55" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pure/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="40" selection-start="787" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppPure/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="16" selection-start="854" selection-end="854" vertical-scroll-proportion="0.3267857">
+          <folding>
+            <element signature="e#14#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

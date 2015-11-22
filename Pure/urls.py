@@ -22,4 +22,7 @@ urlpatterns = [
     url(r'^add/', 'AppPure.views.add',name='add'),
     url(r'^add2/(\d+)/(\d+)/','AppPure.views.add2', name='add'),
     url(r'^temp/$','AppPure.views.temp', name='temp'),
+    url(r'^$','AppPure.views.login', name='login'),
+    url(r'^time/$','AppPure.views.time', name='time'),
+    url(r'^time/$','AppPure.views.index', name='index'),
 ]
